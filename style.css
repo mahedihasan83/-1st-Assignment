@@ -24,7 +24,7 @@ a{
     text-decoration: none;
     color: #575757;
 }
-button{
+.nav-button{
     height: 40px;
     width: 150%;
     margin-bottom: 10px;
@@ -34,4 +34,48 @@ button{
     background-color: #1D4ED8;
     color: #FFFFFF;
     border: none;
+    font-size: 12;
+    
 }
+.hero-parent-container{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/banner.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.hero-parent-root{
+    color: #FFFFFF;
+    text-align: center;
+    display: grid;
+    gap: 16px;
+}
+.hero-parent-root h1{
+    font-size: 80px;
+}
+.hero-parent-root p{
+    font-size: 22px;
+}
+.hero-button {
+    height: 50px;
+    width: 190px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+}
+.button-container{
+    display: grid;
+    justify-content: center;
+}
+
+
+
