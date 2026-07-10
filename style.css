@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+section{
+    padding: 80px 8%;
+}
 nav{
     background-color: #FFFFFF;
     display: flex;
@@ -35,6 +38,7 @@ a{
     color: #FFFFFF;
     border: none;
     font-size: 12;
+    font-weight: bold;
     
 }
 .hero-parent-container{
@@ -71,10 +75,47 @@ a{
     color: #FFFFFF;
     border: none;
     font-size: 18px;
+    font-weight: bold;
 }
 .button-container{
     display: grid;
     justify-content: center;
+}
+
+    
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 50px;
+
+}
+.card-container .card{
+    background-color:#E5E7EB;
+    border-radius: 12px;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+
+.top-text{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+.card small,p,h3{
+    margin: 8px 0;
+    margin-left: 24px;
+    
+}
+.card p{
+    margin-bottom: 24px;
+}
+.card small{
+    color: #2563EB;
 }
 
 
