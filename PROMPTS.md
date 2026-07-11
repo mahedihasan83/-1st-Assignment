@@ -1,0 +1,1 @@
+Create a modern Hackathon Challenge section for a DevConf 2026 conference website using HTML and CSS only.
