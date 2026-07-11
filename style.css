@@ -128,7 +128,7 @@ a{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-/* pricing section */
+
 
 .pricing-heading{
     text-align: center;
@@ -222,6 +222,104 @@ a{
     border: none;
 }
 
+
+
+.hackathon{
+    background:#081120;
+    padding:90px 8%;
+    margin: 33px;
+    border-radius: 16px;
+}
+
+.hackathon-top{
+    text-align:center;
+}
+
+
+
+.hackathon-top h1{
+    font-size:64px;
+    color:white;
+    margin-bottom:15px;
+}
+
+.hackathon-top h1 span{
+    color:#2563EB;
+}
+
+.hackathon-top h3{
+    color:white;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.hackathon-top p{
+    color:#B6C2D0;
+    width:700px;
+    margin:0 auto;
+    line-height:30px;
+    font-size:18px;
+}
+
+.hackathon-card-parent{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    margin-top:70px;
+}
+
+.hackathon-card{
+    background:#0F172A;
+    border:1px solid #243042;
+    border-radius:15px;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    background:#163B75;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+.hackathon-card h4{
+    color:#B8C1CC;
+    font-size:22px;
+    margin-bottom:18px;
+}
+
+.hackathon-card h2{
+    color:white;
+    font-size:42px;
+}
+
+.btn-area{
+    text-align:center;
+    margin-top:70px;
+}
+
+.btn-area button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:18px 45px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn-area p{
+    color:#B8C1CC;
+    margin-top:20px;
+    font-size:18px;
+}
 
 
 
