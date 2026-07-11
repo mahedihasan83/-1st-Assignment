@@ -207,6 +207,9 @@ a{
 .different li{
     color: white;
 }
+.pricing-card-parent hr{
+    margin-left: 0;
+}
 .different .pricing-card-root{
     color: #93C5FD;
 }
@@ -356,6 +359,6 @@ hr{
 }
 .footer-bottom p span{
     margin-left: 20px;
-    
+
 }
 
